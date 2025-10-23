@@ -28,6 +28,9 @@ export default function Header() {
             <a href="#brands" className="hover:text-accent transition-colors">
               Our Brands
             </a>
+            <a href="#careers" className="hover:text-accent transition-colors">
+              Careers
+            </a>
             <a href="#contact" className="hover:text-accent transition-colors">
               Contact
             </a>
@@ -66,6 +69,13 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               Our Brands
+            </a>
+            <a
+              href="#careers"
+              className="block hover:text-accent transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Careers
             </a>
             <a
               href="#contact"
